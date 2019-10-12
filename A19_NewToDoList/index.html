@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!--<script src="script.js"></script>-->
+</head>
+
+<body>
+  <div class="m-5">
+    <header class="mb-3">
+      <h4>My Todo</h4>
+      <div class="form-inline">
+        <input type="text" placeholder="add item" id="newTodo" class="form-control mr-2">
+        <button id="addBtn" class="btn btn-info">Add</button>
+      </div>
+    </header>
+
+    <h5>Todo <span>( 'Click' move-to-Done )</span></h5>
+    <ul id="my-todo" class="list-unstyled">
+      <!-- display todos here -->
+    </ul>
+    <h5>Done <span>( 'Click' move-back-Todo )</span></h5>
+    <ul id="done-item" class="list-unstyled">
+      <!-- display todos here -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

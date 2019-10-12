@@ -1,0 +1,25 @@
+#addBtn {
+  margin: 8px;
+}
+
+.bg-info {
+  color: white;
+}
+.checked {
+  color: #ccc;
+  text-decoration: line-through;
+  font-style: italic;
+ }
+
+.fa {
+  margin: 0 5px;
+  color: #bbb;
+}
+
+li>label{
+  width: 300px;
+}
+
+span {
+  font-size: 0.8rem;
+}
